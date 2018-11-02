@@ -6,7 +6,7 @@ import cucumber.api.CucumberOptions;
 @CucumberOptions(
         features = "src/main/resources/features/"
         ,glue={"co/com/cliente/proyecto/test/stepdefinition/"}
-        ,format = {"pretty", "html:target/Destination"}
+        ,format = {"pretty", "json:target/result.json"}
 )
 public class TestRunnerExample {
 
